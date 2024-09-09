@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us" style="height: 100%; margin: 0; padding: 0;">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Fast Cars Traffic Racer Infinite Runner 2021</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <!-- <link rel="stylesheet" href="TemplateData/style.css"> -->
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+	 <script>
+		  var unityInstance = UnityLoader.instantiate("unityContainer", "Build/data.json", {
+			onProgress: UnityProgress,
+			Module: {
+			  onRuntimeInitialized: function() {
+				// Fullscreen 2 seconds after the Unity WebGL app is loaded
+				setTimeout(function() {
+				  //unityInstance.SetFullscreen(1);
+				  //console.log("Loaded");
+				}, 2000); // 2-second delay
+			  }
+			}
+		  });
+		</script>
+  </head>
+  <body style="height: 100%; margin: 0; padding: 0;">
+    <!-- <div class="webgl-content"> -->
+      <div id="unityContainer" style="width: auto; height: 100%"></div>
+    <!--   <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Fast Cars Traffic Racer Infinite Runner 2021</div> -->
+      <!-- </div> -->
+    </div>
+  </body>
+</html>

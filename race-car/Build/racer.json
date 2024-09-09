@@ -1,0 +1,16 @@
+{
+"companyName": "Rocketstar",
+"productName": "Infinite Runner 2021",
+"productVersion": "1.0",
+"dataUrl": "racer.data.unityweb",
+"wasmCodeUrl": "racer.wasm.code.unityweb",
+"wasmFrameworkUrl": "racer.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#14324E",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.28f1"
+}
